@@ -19,13 +19,17 @@
   <body>
 	<h1>Emotions</h1>
 	
-	<table width="100%">	
+	<table>
 		<tr>
-			<td width="20%" bgcolor="green" height="500"></td>
-			<td wdith="60%" height="500">center</td>
-			<td width="20%" bgcolor="red" height="500">right</td>
+			<td class='happyNode>HAPPY</td>
+			<td class='sadNode'>SAD</td>
+			<td class='embaressedNode'>EMBARESSED</td>
 		</tr>
-		<tr class=someidentifier></tr>
+		<tr>
+			<td class='scaredNode'>SCARED</td>
+			<td class='angryNode'>ANGRY</td>
+			<td class='tiredNode'>TIRED</td>
+		</tr>
 	</table>
   
   </body>

@@ -1,4 +1,7 @@
 function main(){
+	alert('a');
+	
+	webgazer.setRegression("threadedRidge");
 	
 	
 	webgazer.setGazeListener(function(data, elapsedTime) {
@@ -14,16 +17,12 @@ function main(){
 	
 	var pos = $('.redBanner').position();
 	var leftPos = pos.left;
-	var topPos = pos.top;
-	alert(leftPos + " " + topPos);
+	var rightPos = pos.right;
 	
+	alert(leftPos + " " + rightPos);
 	
 	
 
-}
-
-function greenChoice(){
-	
 }
 
 $(document).ready(main);
