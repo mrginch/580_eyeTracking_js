@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+	<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 
+	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+	
+	<script src="main.js" type="text/javascript"></script>
+	
+	<!-- WebGazer.js library -->
+	<script src="WebGazer.js" type="text/javascript" ></script>
+  
+	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Headtracking Communication</title>	
+	
+  </head>
+  <body>
+	<h1>Emotions</h1>
+	
+	<table>
+		<tr>
+			<td class='happyNode>HAPPY</td>
+			<td class='sadNode'>SAD</td>
+			<td class='embaressedNode'>EMBARESSED</td>
+		</tr>
+		<tr>
+			<td class='scaredNode'>SCARED</td>
+			<td class='angryNode'>ANGRY</td>
+			<td class='tiredNode'>TIRED</td>
+		</tr>
+	</table>
+  
+  </body>
+  
+  
+</html>

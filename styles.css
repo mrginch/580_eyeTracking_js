@@ -1,83 +1,93 @@
 body{
 	text-align: center;
 	align: center;
-
+	margin:0;
 }
 
-.box{
-	columns: 3;
-	align: center;
+.nde1{
 	text-align: center;
-	justify-content: space-between;
-	height: 575px;
-	width: 1000px;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
 
-	margin: auto;
-    width: 75%;
-    padding: 10px;
+.nde2{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde3{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde4{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.nde5{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde6{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
 }
 
 
 
-.happyNode{
-	border: 10px solid yellow;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
 	
-	background-image: url("http://pix.iemoji.com/images/emoji/apple/ios-9/256/smiling-face-with-smiling-eyes.png");
-}
-.sadNode{
-	border: 10px solid red;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
-	
-	background-image: url("http://pix.iemoji.com/images/emoji/apple/ios-9/256/loudly-crying-face.png");
-}
-.embaressedNode{
-	border: 10px solid purple;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
-	
-	background-image: url("http://img2.thejournal.ie/inline/1788336/original/?width=256&version=1788336");
-}
-.scaredNode{
-	border: 10px solid blue;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
-	
-	background-image: url("http://pix.iemoji.com/images/emoji/apple/ios-9/256/face-screaming-in-fear.png");
-}
-.angryNode{
-	border: 10px solid green;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
-	
-	background-image: url("http://pix.iemoji.com/images/emoji/apple/ios-9/256/pouting-face.png");
-}
-.tiredNode{
-	border: 10px solid black;
-	text-align: center;
-	padding:1em;
-	height: 225px;
-	width: 225px;
-	
-	background-image: url("http://pix.iemoji.com/images/emoji/apple/ios-9/256/sleeping-face.png");
-}
-
 h1{
-	font-size: 4em;
+	font-size: 2em;
 	color: blue;
+	font-weight: bold;
 }
 h2{
 	font-size: 2em;
+}
+
+td{
+	text-align: center;
+}
+
+.greenBanner{
+	left: 0;
+	background-color: green;
+	border-collapse:collapse;
+	width: 150px;
+}
+
+.redBanner{
+	right:0;
+	background-color: red;
+	border-collapse:collapse;
+	width: 150px;
+}
+table{
+	border-collapse: collapse;
+}
+
+.topBand{
+	background-color: yellow;
+	height: 150px;
+}
+
+.selectedClass{
+	border-color: black;
+	border: 5px;
 }
