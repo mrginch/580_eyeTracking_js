@@ -4,7 +4,7 @@ body{
 	margin:0;
 }
 
-.nde{
+.nde1{
 	text-align: center;
 	height: 265px;
 	width: 265px;
@@ -12,10 +12,50 @@ body{
 	font-size: 2em;
 }
 
+.nde2{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde3{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde4{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.nde5{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.nde6{
+	text-align: center;
+	height: 265px;
+	width: 265px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+
+
 	
 h1{
-	font-size: 4em;
+	font-size: 2em;
 	color: blue;
+	font-weight: bold;
 }
 h2{
 	font-size: 2em;
@@ -40,4 +80,14 @@ td{
 }
 table{
 	border-collapse: collapse;
+}
+
+.topBand{
+	background-color: yellow;
+	height: 150px;
+}
+
+.selectedClass{
+	border-color: black;
+	border: 5px;
 }
